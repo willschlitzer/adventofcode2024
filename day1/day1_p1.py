@@ -1,5 +1,6 @@
+import time
 from day1_inputs import p1_sample, p1_puzzle
-
+start_time = time.time()
 
 def main():
     left_list = []
@@ -19,8 +20,9 @@ def main():
     for i in range(len(left_list)):
         diff = abs(left_list[i] - right_list[i])
         entry_difference += diff
-
+    end_time = time.time() - start_time
     print(entry_difference)
+    print(end_time)
 
 
 def row_splitter(row):
