@@ -1,6 +1,7 @@
 import time
 from day3_inputs import p1_sample, p1_puzzle
 import re
+
 start_time = time.time()
 
 
@@ -15,9 +16,8 @@ def main():
         multi_nums = [int(x) for x in num_match_str.split(",")]
         multi_total = multi_nums[0] * multi_nums[1]
         total_count += multi_total
-    
-    print(total_count)
 
+    print(total_count)
 
 
 main()
