@@ -163,3 +163,7 @@ cython_debug/
 
 # Puzzle inputs
 day1/day1_inputs.py
+day2/day2_inputs.py
+day3/day3_inputs.py
+day4/day4_inputs.py
+day5/day5_inputs.py
